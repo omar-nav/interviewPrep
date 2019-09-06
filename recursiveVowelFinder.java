@@ -5,8 +5,10 @@ public class recursiveVowelFinder {
 	static int isVowel(char ch) {
 		ch = Character.toUpperCase(ch);
 		if (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
+			System.out.println("is a vowel:  " + ch);
 			return 1;
 		} else {
+			System.out.println("not a vowel:  " + ch);
 			return 0;
 		}
 	}
@@ -17,7 +19,7 @@ public class recursiveVowelFinder {
 			System.out.println(str.charAt(n) + " had n == 1");
 			return isVowel(str.charAt(n-1));
 		} else {
-			System.out.println("other letters are at different index");
+			System.out.println("other letters are at different index " + str.charAt(n - 1));
 			return countVowels(str, n-1)+isVowel(str.charAt(n-1));
 		}
 	}

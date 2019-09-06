@@ -22,7 +22,7 @@ public class iterativeVowelFinder {
 
 	public static void main(String[] args) {
 		// string object
-		String str = "julio";
+		String str = "jose";
 
 		// total number of vowel
 		System.out.println(str + " contains " + countVowels(str) + " vowels");

@@ -18,7 +18,7 @@ public class FibonacciCalculator {
 
 	public static void main(String[] args) {
 		// displays the fibonacci values from 0-3
-		for (int counter = 0; counter <= 3; counter++) {
+		for (int counter = 0; counter <= 100; counter++) {
 			System.out.printf("Fibonacci of %d is: %d%n", counter, 
 					fibonacci(BigInteger.valueOf(counter))); // this call is NOT recursive
 		}
