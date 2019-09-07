@@ -19,7 +19,7 @@ public class recursiveVowelFinder {
 			System.out.println(str.charAt(n) + " had n == 1");
 			return isVowel(str.charAt(n-1));
 		} else {
-			System.out.println("other letters are at different index " + str.charAt(n - 1));
+			System.out.println("char at index " + n + ": " + str.charAt(n - 1));
 			return countVowels(str, n-1)+isVowel(str.charAt(n-1));
 		}
 	}
