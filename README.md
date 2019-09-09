@@ -1,4 +1,8 @@
 # interviewPrep
+Head recursion is used to recursive vowel finder
+
+Tail recursion
+
 Iteration uses iteration statement (for, while, or do...while)
 Recursion uses selection statement (if, if..else, or switch)
 
